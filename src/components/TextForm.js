@@ -40,11 +40,11 @@ export default function TextForm(props) {
             <div className="mb-3">
             <textarea className="form-control" style={{backgroundColor : props.mode === 'light'?'white':'#545454',color: props.mode==='light'?'black':'white'}} value={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
             </div>
-            <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-            <button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to Lowercase</button>
-            <button className="btn btn-primary mx-1" onClick={handleClear}>Clear Text</button>
-            <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
-            <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+            <button className="btn btn-primary m-1" onClick={handleUpClick}>Convert to Uppercase</button>
+            <button className="btn btn-primary m-1" onClick={handleLoClick}>Convert to Lowercase</button>
+            <button className="btn btn-primary m-1" onClick={handleClear}>Clear Text</button>
+            <button className="btn btn-primary m-1" onClick={handleCopy}>Copy Text</button>
+            <button className="btn btn-primary m-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
             
             
             
